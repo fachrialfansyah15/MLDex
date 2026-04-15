@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_exp"
-        android:icon="@drawable/exp"
+        android:icon="@drawable/fighter_icon"
         android:title="Fighter" />
     <item
         android:id="@+id/nav_roam"
-        android:icon="@drawable/roam"
+        android:icon="@drawable/tank_icon"
         android:title="Tank" />
     <item
         android:id="@+id/nav_jungel"
-        android:icon="@drawable/jungel"
+        android:icon="@drawable/assassin_icon"
         android:title="Assassin" />
     <item
         android:id="@+id/nav_mid"
-        android:icon="@drawable/mid"
+        android:icon="@drawable/mage_icon"
         android:title="Mage" />
     <item
         android:id="@+id/nav_gold"
-        android:icon="@drawable/gold"
+        android:icon="@drawable/marksman_icon"
         android:title="Marksman" />
     <item
         android:id="@+id/nav_support"
-        android:icon="@drawable/gold"
+        android:icon="@drawable/support_icon"
         android:title="Support" />
 </menu>

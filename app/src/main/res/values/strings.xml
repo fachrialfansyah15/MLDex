@@ -6,63 +6,68 @@
     <string name="grid">Grid</string>
 
     <string-array name="data_name">
-        <item>Miya</item>
-        <item>Alucard</item>
-        <item>Tigreal</item>
-        <item>Eudora</item>
-        <item>Saber</item>
-        <item>Nana</item>
-        <item>Balmond</item>
-        <item>Layla</item>
-        <item>Zilong</item>
+        <item>Claude</item>
+        <item>Granger</item>
+        <item>Ixia</item>
+        <item>Karrie</item>
+        <item>Obsidia</item>
+        <item>Clint</item>
+        <item>Brody</item>
+        <item>Hanabi</item>
+        <item>Beatrix</item>
+        <item>Bruno</item>
     </string-array>
 
     <string-array name="data_role">
         <item>Marksman</item>
-        <item>Fighter</item>
-        <item>Tank</item>
-        <item>Mage</item>
-        <item>Assassin</item>
-        <item>Support</item>
-        <item>Fighter</item>
         <item>Marksman</item>
-        <item>Fighter</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
     </string-array>
 
     <string-array name="data_age">
-        <item>Unknown</item>
-        <item>20s</item>
-        <item>30s</item>
-        <item>Unknown</item>
-        <item>Unknown</item>
-        <item>Unknown</item>
-        <item>Unknown</item>
-        <item>16</item>
-        <item>20s</item>
+        <item>25 Tahun</item>
+        <item>30 Tahun</item>
+        <item>18 Tahun</item>
+        <item>20 Tahun</item>
+        <item>19 Tahun</item>
+        <item>35 Tahun</item>
+        <item>25 Tahun</item>
+        <item>22 Tahun</item>
+        <item>19 Tahun</item>
+        <item>25 Tahun</item>
     </string-array>
 
     <string-array name="data_gender">
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
         <item>Female</item>
         <item>Male</item>
         <item>Male</item>
         <item>Female</item>
-        <item>Male</item>
-        <item>Female</item>
-        <item>Male</item>
         <item>Female</item>
         <item>Male</item>
     </string-array>
 
     <string-array name="data_weapon">
-        <item>Bow</item>
-        <item>Greatsword</item>
-        <item>Sword and Shield</item>
-        <item>Lightning Magic</item>
-        <item>Twin Blades</item>
-        <item>Magic Boomerang</item>
-        <item>Axe</item>
-        <item>Malefic Gun</item>
-        <item>Spear</item>
+        <item>Blunderbuss</item>
+        <item>Rhapsody(Pistol), Death Sonata</item>
+        <item>Arc Beam</item>
+        <item>Lightwheel</item>
+        <item>Shadow Wing</item>
+        <item>Wild West Justice</item>
+        <item>Abyssal Arm</item>
+        <item>Higanbana</item>
+        <item>Renner, Bennett, Wesker, Nibiru</item>
+        <item>Mecha Legs</item>
     </string-array>
 
     <string-array name="data_lore">
@@ -78,14 +83,15 @@
     </string-array>
 
     <array name="data_photo">
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
-        <item>@drawable/app</item>
+        <item>@drawable/hero_claude</item>
+        <item>@drawable/hero_granger</item>
+        <item>@drawable/hero_ixia</item>
+        <item>@drawable/hero_karrie</item>
+        <item>@drawable/hero_obsidia</item>
+        <item>@drawable/hero_clint</item>
+        <item>@drawable/hero_brody</item>
+        <item>@drawable/hero_hanabi</item>
+        <item>@drawable/hero_beatrix</item>
+        <item>@drawable/hero_bruno</item>
     </array>
 </resources>

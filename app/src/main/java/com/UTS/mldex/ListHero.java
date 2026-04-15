@@ -22,15 +22,14 @@ public class ListHero extends AppCompatActivity {
     private ListHeroAdapter adapter;
     private TabLayout tabLayout;
 
-    private final String[] roles = {"All", "Marksman", "Fighter", "Tank", "Mage", "Assassin", "Support"};
+    private final String[] roles = {"Marksman", "Fighter", "Tank", "Mage", "Assassin", "Support"};
     private final int[] roleIcons = {
-        R.drawable.app, // All
-        R.drawable.gold, // Marksman
-        R.drawable.exp,  // Fighter
-        R.drawable.roam, // Tank
-        R.drawable.mid,  // Mage
-        R.drawable.jungel,// Assassin
-        R.drawable.roam  // Support (using roam as placeholder)
+        R.drawable.marksman_icon,
+        R.drawable.fighter_icon,
+        R.drawable.tank_icon,
+        R.drawable.mage_icon,
+        R.drawable.assassin_icon,
+        R.drawable.support_icon
     };
 
     @Override
@@ -71,17 +70,13 @@ public class ListHero extends AppCompatActivity {
     }
 
     private void filterHero(String role) {
-        if (role.equals("All")) {
-            adapter.setListHero(list);
-        } else {
-            ArrayList<Hero> filteredList = new ArrayList<>();
-            for (Hero hero : list) {
-                if (hero.getRole().equalsIgnoreCase(role)) {
-                    filteredList.add(hero);
-                }
+        ArrayList<Hero> filteredList = new ArrayList<>();
+        for (Hero hero : list) {
+            if (hero.getRole().equalsIgnoreCase(role)) {
+                filteredList.add(hero);
             }
-            adapter.setListHero(filteredList);
         }
+        adapter.setListHero(filteredList);
     }
 
     @Override
