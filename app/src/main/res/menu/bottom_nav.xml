@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_exp"
+        android:icon="@drawable/exp"
+        android:title="Fighter" />
+    <item
+        android:id="@+id/nav_roam"
+        android:icon="@drawable/roam"
+        android:title="Tank" />
+    <item
+        android:id="@+id/nav_jungel"
+        android:icon="@drawable/jungel"
+        android:title="Assassin" />
+    <item
+        android:id="@+id/nav_mid"
+        android:icon="@drawable/mid"
+        android:title="Mage" />
+    <item
+        android:id="@+id/nav_gold"
+        android:icon="@drawable/gold"
+        android:title="Marksman" />
+    <item
+        android:id="@+id/nav_support"
+        android:icon="@drawable/gold"
+        android:title="Support" />
+</menu>

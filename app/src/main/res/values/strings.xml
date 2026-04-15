@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MLDex</string>
+    <string name="heroes_name">Hero Name</string>
+    <string name="description">Description</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+    <string-array name="data_name">
+        <item>Miya</item>
+        <item>Alucard</item>
+        <item>Tigreal</item>
+        <item>Eudora</item>
+        <item>Saber</item>
+        <item>Nana</item>
+        <item>Balmond</item>
+        <item>Layla</item>
+        <item>Zilong</item>
+    </string-array>
+
+    <string-array name="data_role">
+        <item>Marksman</item>
+        <item>Fighter</item>
+        <item>Tank</item>
+        <item>Mage</item>
+        <item>Assassin</item>
+        <item>Support</item>
+        <item>Fighter</item>
+        <item>Marksman</item>
+        <item>Fighter</item>
+    </string-array>
+
+    <string-array name="data_age">
+        <item>Unknown</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>16</item>
+        <item>20s</item>
+    </string-array>
+
+    <string-array name="data_gender">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="data_weapon">
+        <item>Bow</item>
+        <item>Greatsword</item>
+        <item>Sword and Shield</item>
+        <item>Lightning Magic</item>
+        <item>Twin Blades</item>
+        <item>Magic Boomerang</item>
+        <item>Axe</item>
+        <item>Malefic Gun</item>
+        <item>Spear</item>
+    </string-array>
+
+    <string-array name="data_lore">
+        <item>Miya was born in the Temple of the Moon and studied hard to one day become a worthy sacrifice to the moon god.</item>
+        <item>Alucard was born in the capital of the empire. His parents were both soldiers in the imperial army.</item>
+        <item>Tigreal is the commander of the Moniyan Empire\'s Knights of the Order.</item>
+        <item>Eudora is a powerful mage who commands the power of lightning.</item>
+        <item>Saber is a modified human who seeks to be the strongest swordsman.</item>
+        <item>Nana is a Leonin from the Moon Elf Forest with powerful magic.</item>
+        <item>Balmond is the leader of the Orc army.</item>
+        <item>Layla is a marksman from Eruditio with her Malefic Gun.</item>
+        <item>Zilong is the Great Dragon\'s favorite disciple.</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+        <item>@drawable/app</item>
+    </array>
+</resources>
