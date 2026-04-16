@@ -49,6 +49,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Login"
+        android:backgroundTint="@color/dark_blue"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edt_password" />
@@ -59,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Belum punya akun? Register"
-        android:textColor="?attr/colorPrimary"
+        android:textColor="@color/dark_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_login" />
