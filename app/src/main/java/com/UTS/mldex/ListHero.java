@@ -39,15 +39,24 @@ public class ListHero extends AppCompatActivity {
 
         rvHeroes = findViewById(R.id.rv_heroes);
         rvHeroes.setHasFixedSize(true);
-
         tabLayout = findViewById(R.id.tab_layout);
 
+        // Load data dari strings.xml
         list.addAll(getListHeroes());
+        
+        // Setup awal
         showRecyclerList();
         setupTabLayout();
+
+        // PAKSA PILIH TAB PERTAMA (Marksman) SAAT START
+        if (tabLayout.getTabAt(0) != null) {
+            tabLayout.getTabAt(0).select();
+            filterHero(roles[0]); // Langsung filter ke Marksman agar tidak muncul All
+        }
     }
 
     private void setupTabLayout() {
+        tabLayout.removeAllTabs();
         for (int i = 0; i < roles.length; i++) {
             TabLayout.Tab tab = tabLayout.newTab();
             tab.setText(roles[i]);
@@ -58,7 +67,9 @@ public class ListHero extends AppCompatActivity {
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                filterHero(tab.getText().toString());
+                if (tab.getText() != null) {
+                    filterHero(tab.getText().toString());
+                }
             }
 
             @Override
@@ -70,9 +81,12 @@ public class ListHero extends AppCompatActivity {
     }
 
     private void filterHero(String role) {
+        if (role == null || adapter == null) return;
+        
         ArrayList<Hero> filteredList = new ArrayList<>();
         for (Hero hero : list) {
-            if (hero.getRole().equalsIgnoreCase(role)) {
+            // Gunakan trim() untuk menghindari error karena spasi tidak sengaja di strings.xml
+            if (hero.getRole() != null && hero.getRole().trim().equalsIgnoreCase(role.trim())) {
                 filteredList.add(hero);
             }
         }
@@ -105,7 +119,10 @@ public class ListHero extends AppCompatActivity {
         TypedArray dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
 
         ArrayList<Hero> listHero = new ArrayList<>();
-        for (int i = 0; i < dataName.length; i++) {
+        // Gunakan panjang array terkecil untuk menghindari index out of bounds crash
+        int length = Math.min(dataName.length, dataPhoto.length());
+
+        for (int i = 0; i < length; i++) {
             Hero hero = new Hero();
             hero.setName(dataName[i]);
             hero.setRole(dataRole[i]);
