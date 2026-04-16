@@ -1,9 +1,36 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Tema Utama Mode Malam -->
     <style name="Base.Theme.MLDex" parent="Theme.Material3.DayNight">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Warna utama tetap biru -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- PAKSA warna background gelap -->
+        <item name="android:windowBackground">#121212</item>
+
+        <!-- PAKSA warna teks menjadi putih agar tidak tersamarkan -->
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="actionBarStyle">@style/Widget.App.ActionBar</item>
     </style>
 
-    <style name="Theme.AplikasiFragment" parent="Base.Theme.MLDex" />
+    <style name="Widget.App.ActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/dark_blue</item>
+        <item name="titleTextStyle">@style/TextAppearance.App.ActionBar.Title</item>
+    </style>
+
+    <!-- 3. Definisi Warna Teks Judul di Action Bar -->
+    <style name="TextAppearance.App.ActionBar.Title" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!-- Tema Tanpa Action Bar Mode Malam -->
+    <style name="Theme.MLDex.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    <style name="Theme.MLDex" parent="Base.Theme.MLDex" />
 </resources>

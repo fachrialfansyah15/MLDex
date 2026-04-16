@@ -15,7 +15,7 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+            android:theme="@style/Theme.MLDex.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -25,17 +25,17 @@
         <!-- Login tanpa Action Bar -->
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar"/>
+            android:theme="@style/Theme.MLDex.NoActionBar"/>
 
         <!-- Register tanpa Action Bar -->
         <activity
             android:name=".RegisterActivity"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar"/>
+            android:theme="@style/Theme.MLDex.NoActionBar"/>
 
         <!-- Welcome tanpa Action Bar -->
         <activity
             android:name=".WelcomeActivity"
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar"/>
+            android:theme="@style/Theme.MLDex.NoActionBar"/>
 
         <!-- ListHero TETAP ada Action Bar (untuk menu titik tiga) -->
         <activity android:name=".ListHero"/>
