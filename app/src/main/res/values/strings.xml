@@ -21,7 +21,7 @@
         <item>Guinevere</item>
         <item>Yu Zhong</item>
         <item>Lapu Lapu</item>
-        <item>Minotaur</item>
+        <item>Minotatur</item>
         <item>Tigreal</item>
         <item>Grock</item>
         <item>Hylos</item>
@@ -44,17 +44,45 @@
     </string-array>
 
     <string-array name="data_role">
-        <item>Marksman</item><item>Marksman</item><item>Marksman</item><item>Marksman</item><item>Marksman</item>
-        <item>Marksman</item><item>Marksman</item><item>Marksman</item><item>Marksman</item><item>Marksman</item>
-        <item>Fighter</item><item>Fighter</item><item>Fighter</item><item>Fighter</item><item>Fighter</item>
-        <item>Tank</item><item>Tank</item><item>Tank</item><item>Tank</item><item>Tank</item>
-        <item>Mage</item><item>Mage</item><item>Mage</item><item>Mage</item><item>Mage</item>
-        <item>Assassin</item><item>Assassin</item><item>Assassin</item><item>Assassin</item><item>Assassin</item>
-        <item>Support</item><item>Support</item><item>Support</item><item>Support</item><item>Support</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Tank</item>
+        <item>Tank</item>
+        <item>Tank</item>
+        <item>Tank</item>
+        <item>Tank</item>
+        <item>Mage</item>
+        <item>Mage</item>
+        <item>Mage</item>
+        <item>Mage</item>
+        <item>Mage</item>
+        <item>Assassin</item>
+        <item>Assassin</item>
+        <item>Assassin</item>
+        <item>Assassin</item>
+        <item>Assassin</item>
+        <item>Support</item>
+        <item>Support</item>
+        <item>Support</item>
+        <item>Support</item>
+        <item>Support</item>
     </string-array>
 
     <string-array name="data_age">
-        <item>23 Tahun</item>
+        <item>25 Tahun</item>
         <item>24 Tahun</item>
         <item>16 Tahun</item>
         <item>27 Tahun</item>
@@ -62,75 +90,103 @@
         <item>31 Tahun</item>
         <item>28 Tahun</item>
         <item>23 Tahun</item>
-        <item>17-18 Tahun</item>
-        <item>20-25 Tahun</item>
-        <item>25 tahun secara fisik (100-200 tahun)</item>
+        <item>17 sampai 18 Tahun</item>
+        <item>20 sampai 25 Tahun</item>
+        <item>25 tahun secara fisik</item>
         <item>Unknown</item>
-        <item>18 Tahun</item>
-        <item>28-30 tahun secara fisik (ribuan tahun)</item>
+        <item>18 tahun</item>
+        <item>25 tahun secara fisik</item>
         <item>26 Tahun</item>
-        <item>Ratusan tahun</item>
-        <item>27 Tahun</item>
+        <item>Ratusan Tahun</item>
+        <item>27 tahun</item>
         <item>8.000+ tahun</item>
         <item>Unknown (ratusan – ribuan tahun)</item>
         <item>Unknown (abadi)</item>
         <item>40 tahun secara fisik (abadi)</item>
         <item>Ribuan tahun</item>
-        <item>27 Tahun</item>
+        <item>27 tahun</item>
         <item>3.000+ tahun (abadi)</item>
-        <item>23 Tahun</item>
-        <item>17 Tahun</item>
-        <item>22 Tahun</item>
-        <item>20 tahun (abadi)</item>
-        <item>22 Tahun</item>
-        <item>26 Tahun</item>
-        <item>21 Tahun</item>
-        <item>17 Tahun</item>
-        <item>18 Tahun</item>
-        <item>15 Tahun</item>
+        <item>23 tahun</item>
+        <item>17 tahun</item>
+        <item>22 tahun</item>
+        <item>20 tahun</item>
+        <item>22 tahun</item>
+        <item>26 tahun</item>
+        <item>21 tahun</item>
+        <item>17 tahun</item>
+        <item>18 tahun</item>
+        <item>15 tahun</item>
         <item>Unknown (android)</item>
     </string-array>
 
     <string-array name="data_gender">
-        <item>Male</item><item>Male</item><item>Female</item><item>Female</item><item>Female</item>
-        <item>Male</item><item>Male</item><item>Female</item><item>Female</item><item>Male</item>
-        <item>Male</item><item>Unknown</item><item>Female</item><item>Male</item><item>Male</item>
-        <item>Male</item><item>Male</item><item>Unknown</item><item>Male</item><item>Male</item>
-        <item>Female</item><item>Female</item><item>Female</item><item>Female</item><item>Female</item>
-        <item>Female</item><item>Male</item><item>Male</item><item>Male</item><item>Male</item>
-        <item>Male</item><item>Female</item><item>Female</item><item>Male</item><item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Unknown</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
     </string-array>
 
     <string-array name="data_weapon">
-        <item>Arm Blaster and Holographic Mirror Device</item>
+        <item>Arm Blaster dan Holographic Mirror Device</item>
         <item>Dirge dan Requiem</item>
         <item>Arc Beam</item>
         <item>Speedy Lightwheel</item>
         <item>Bones of Wrath</item>
-        <item>Direwolf (Shotgun) and Falcon (Revolver)</item>
-        <item>Right arm that corroded by the blood of the demon</item>
+        <item>Direwolf (Shotgun) dan Falcon (Revolver)</item>
+        <item>Abyssal Arm</item>
         <item>Higanbana</item>
-        <item>Renner, Bennett, Nibiru, Wesker</item>
-        <item>Powerball and Energy Ball</item>
+        <item>Renner, Bennett, Wesker, Nibiru</item>
+        <item>Mecha Legs dan Energy Ball</item>
         <item>Dual Wielding Lances</item>
         <item>Goo</item>
         <item>Crystal Violet</item>
-        <item>Cursed Dragon Tail and Bladed Cloak</item>
+        <item>Cursed Dragon Tail dan Bladed Cloak</item>
         <item>Twinblades of Valor</item>
         <item>Hammer</item>
-        <item>Sacred Hammer and Shield</item>
+        <item>Sacred Hammer dan Shield</item>
         <item>Weathered Citadel</item>
         <item>Staff of Glory</item>
-        <item>Antakusuma armor and gauntlets</item>
+        <item>Antakusuma armor dan Braiamusti-Braiadenta gauntlets</item>
         <item>Shadow Power</item>
-        <item>Celestial Armament and Imperial Phoenix Spirit</item>
-        <item>Osana\'s Ancient Crown and Magic Staff</item>
+        <item>Celestial Armament dan Imperial Phoenix Spirit</item>
+        <item>Osana Ancient Crown dan Magic Staff</item>
         <item>Wishing Lantern</item>
-        <item>Seven Legendary Spears and Trident of The Seas</item>
-        <item>Soaring Blade and Steel Cable</item>
+        <item>Seven Legendary Spears dan Trident of The Seas</item>
+        <item>Soaring Blade dan Steel Cable</item>
         <item>Royal Rapier</item>
-        <item>Twinblade, Trident, and Longbow</item>
-        <item>Kusanagi and Kunai</item>
+        <item>Twinblade, Trident, dan Longbow</item>
+        <item>Kusanagi dan Kunai</item>
         <item>Shard Blades</item>
         <item>Clemar (Kamera)</item>
         <item>The Oasis Seed</item>
@@ -140,27 +196,97 @@
     </string-array>
 
     <string-array name="data_lore">
-        <item>Claude lahir di Los Pecados...</item>
-        <item>-</item><item>-</item><item>-</item><item>-</item><item>-</item><item>-</item><item>-</item><item>-</item><item>-</item>
-        <item>Arlott adalah setengah iblis...</item>
-        <item>-</item><item>-</item><item>-</item><item>-</item>
-        <item>Dahulu kala, terdapat sebuah kerajaan maju bernama Minoa...</item>
-        <item>-</item><item>-</item><item>-</item><item>-</item>
-        <item>Valentina adalah pewaris utama House Paxley...</item>
-        <item>-</item><item>-</item><item>-</item><item>-</item>
-        <item>Fanny Wertz adalah adik dari Tigreal...</item>
-        <item>-</item><item>-</item><item>-</item><item>-</item>
-        <item>Marcel Paxley adalah sosok berbakat...</item>
-        <item>-</item><item>-</item><item>-</item><item>-</item>
-    </string-array>
+        <item>Claude lahir di Los Pecados, sebuah kota tanpa hukum di Land of Dawn yang dipenuhi kejahatan. Sebagai yatim piatu, ia tumbuh dengan mengandalkan kemampuan bertarung, berbohong, berjudi, dan terutama mencuri. Bakatnya yang luar biasa membuatnya cepat dikenal hingga menjadi pemimpin sekelompok anak jalanan. Mereka kemudian berada di bawah perlindungan Waldo Kane, sosok ambisius yang diam-diam memanfaatkan mereka sebagai alat untuk mencapai kekuasaan.
+Saat berusia 18 tahun, Claude diberi misi untuk menyusup ke rumah seorang bangsawan di Moniyan. Namun, misi itu ternyata hanyalah jebakan, dan ia pun ditangkap lalu dipenjara. Di dalam sel, Claude bertemu Merlin, pencuri legendaris yang mengajarinya berbagai teknik mencuri dan bertahan hidup. Sebagai imbalannya, Claude harus meninggalkan jejak namanya di setiap kota di Land of Dawn. Setelah dua tahun, ia berhasil melarikan diri dan mulai dikenal sebagai pencuri hebat yang hanya menargetkan orang-orang jahat.
+Dalam perjalanannya, Claude bertemu Dexter, seekor monyet cerdik yang kemudian menjadi partner setianya. Setelah lima tahun berkelana, ia kembali ke Los Pecados dan mendapati kenyataan pahit: teman-temannya masih hidup dalam kemiskinan, sementara Waldo Kane telah menjadi penguasa kota. Dipenuhi amarah, Claude merencanakan balas dendam. Ia mencuri alat canggih milik Dr. Rooney di Eruditio, lalu kembali ke Los Pecados bersama Dexter, siap membalas pengkhianatan yang telah menghancurkan hidupnya.
+        </item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Arlott adalah setengah iblis dan setengah manusia yang dikucilkan sejak kecil. Ia bergabung dengan para iblis di Barren Lands, menjalani hidup sebagai prajurit tanpa tujuan selain bertahan hidup. Namun, saat pertempuran, ia justru dikhianati oleh sesama iblis hingga hampir mati. Dalam kondisi kritis, ia diselamatkan oleh seorang gadis manusia bernama Mila. Awalnya ia tidak percaya pada manusia, tapi kebaikan dan ketulusan Mila perlahan mengubah pandangannya.
 
+Selama tinggal bersama Mila di toko roti, Arlott mulai merasakan kehidupan yang belum pernah ia miliki. Ia belajar membaca, membantu pekerjaan sehari-hari, dan bahkan mulai menikmati hidup sederhana. Mila percaya bahwa Arlott adalah orang baik, dan mereka berjanji untuk melindungi orang lain bersama. Tapi kebahagiaan itu tidak lama. Gereja Cahaya mengetahui bahwa Mila menolong Arlott, lalu menuduhnya sesat dan mengeksekusinya.
+
+Kematian Mila menghancurkan Arlott. Dipenuhi amarah, ia membantai semua orang di gereja sebagai balas dendam. Setelah itu, ia membawa jasad Mila ke hutan dekat danau, tempat yang pernah mereka kenang bersama, lalu memakamkannya di sana. Di titik itu, Arlott sadar ia tidak sepenuhnya manusia maupun iblis. Ia kehilangan satu-satunya hal yang ingin ia lindungi, dan memilih berjalan di jalannya sendiri, ditemani kenangan tentang Mila.
+</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Dahulu kala, terdapat sebuah kerajaan maju bernama Minoa di Agelta Drylands. Pangerannya, Minotaur, dikenal sebagai pejuang terkuat namun memiliki sifat penuh amarah. Ayahnya khawatir akan sifat tersebut dan mengujinya melalui duel melawan sosok misterius. Dalam kemarahannya setelah kalah, Minotaur menyerang lawannya secara brutal, hingga akhirnya menyadari bahwa sosok itu adalah ayahnya sendiri. Sebelum meninggal, sang raja berpesan agar Minotaur belajar bertanggung jawab. Dipenuhi penyesalan, Minotaur mengasingkan diri ke Labirin Minoa untuk menebus kesalahannya.
+Selama bertahun-tahun, Minotaur melatih diri dan perlahan mampu mengendalikan amarahnya. Namun, bencana besar terjadi ketika ledakan Twilight Orb menghancurkan seluruh kerajaan Minoa. Minotaur selamat karena berada di dalam labirin, tetapi ia terperangkap dan tertidur lama akibat pecahan artefak tersebut. Ketika akhirnya terbangun, ia mengetahui bahwa seluruh peradaban Minoa telah lenyap, hanya menyisakan dirinya dan kenangan masa lalu.
+Meski kenyataan pahit itu sulit diterima, Minotaur tetap berpegang pada pesan terakhir ayahnya. Ia bersumpah untuk menemukan kembali jejak kaumnya dan membangun kembali kejayaan Minoa. Dengan tekad kuat, ia pun melangkah menyusuri padang pasir luas, meninggalkan jejak kaki menuju masa depan yang belum pasti.
+</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Valentina adalah pewaris utama House Paxley yang kuat dan ambisius, dikenal sebagai pemimpin hebat dalam melawan invasi Abyss di wilayah Lantis. Dalam usahanya mencari sekutu, ia bertemu Irlan, seorang elf yang akhirnya jatuh cinta padanya. Awalnya ragu karena tuntutan status dan tanggung jawab, Valentina akhirnya menerima perasaan Irlan demi kepentingan keluarga dan hatinya sendiri. Bersama, mereka memimpin pasukan manusia dan elf melawan Abyss, hingga Valentina diangkat sebagai Duchess dan merasakan kebahagiaan yang belum pernah ia rasakan sebelumnya.
+Namun, kebahagiaan itu hancur saat perang besar terjadi dan ia dikhianati oleh pamannya sendiri. Dalam rencana terakhir menggunakan sihir terlarang “Soul Casket”, Valentina justru dijebak. Di saat terakhir, Irlan mengorbankan dirinya untuk menyelamatkan Valentina, namun jiwanya hilang. Meskipun pertempuran dimenangkan, Valentina harus membayar harga yang sangat mahal. Ia kemudian membalas para pengkhianat dan membawa pulang jasad kekasihnya, bertekad mencari cara untuk mengembalikan jiwanya.
+Dalam keputusasaan, Valentina membuat perjanjian dengan Kalon, dewa jahat, dan memperoleh kekuatan bayangan serta keabadian. Namun, perjanjian itu mengutuk seluruh keturunan Paxley. Sejak saat itu, Valentina hidup dalam bayangan, menunggu munculnya Heart of Anima—artefak yang diyakini dapat mengembalikan jiwa Irlan. Dengan tekad yang tak tergoyahkan, ia terus berjalan di antara kegelapan demi satu tujuan: menghidupkan kembali orang yang paling ia cintai.
+</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Fanny Wertz adalah adik dari Tigreal yang tumbuh dalam keluarga bangsawan militer di Moniyan. Meski keluarganya melarang perempuan ikut berperang, Fanny sejak kecil mengidolakan kakaknya dan bercita-cita menjadi prajurit. Ketika Tigreal menghilang dan dicap sebagai pengecut, nama keluarga mereka pun tercemar. Yakin bahwa kakaknya tidak bersalah, Fanny memutuskan untuk bergabung dengan militer demi memulihkan kehormatan keluarga, meskipun harus menghadapi penolakan dari keluarganya dan ejekan dari para prajurit.
+Di kamp pelatihan, Fanny menjalani kehidupan keras yang jauh dari kemewahan yang biasa ia rasakan. Ia berlatih tanpa henti, bahkan memotong rambut panjangnya dan bekerja dua kali lebih keras hingga akhirnya berhasil menjadi anggota unit pengintai. Untuk mengatasi keterbatasan fisiknya, Fanny menciptakan senjata unik berupa pedang dengan kabel baja yang memungkinkannya bergerak cepat di medan sulit. Dengan latihan yang tekun, ia menguasai teknik tersebut dan dikenal sebagai “Blade Dancer” karena kelincahan dan keindahannya saat bertarung di udara.
+Seiring waktu, kemampuan Fanny membuatnya mendapatkan pengakuan dan rasa hormat dari rekan-rekannya. Ia akhirnya memenuhi syarat untuk bergabung dengan Light’s Order, dan pada saat yang sama, Tigreal kembali dari pengasingannya. Melihat perjuangan adiknya, Tigreal mengakui kekuatan Fanny sebagai seorang pejuang sejati dan mengajaknya bertarung bersama. Kini, Fanny dikenal sebagai sosok lincah yang melesat di langit seperti burung bebas, siap melindungi Moniyan dengan kemampuannya yang luar biasa.
+</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Marcel Paxley adalah sosok berbakat namun misterius dari House Paxley di Castle Aberleen. Sejak kecil, ia hidup dalam bayang-bayang nama keluarganya yang dipenuhi konflik dan kegelapan. Setelah ayahnya bunuh diri dan ia dicap sebagai “anak pengkhianat”, Marcel mengalami kekerasan dari orang-orang di sekitarnya. Satu-satunya sumber kebahagiaannya adalah ibunya, yang memberinya kamera dan mengajarinya melihat dunia melalui lensa. Namun, ibunya akhirnya pergi meninggalkannya demi kebebasan, membuat Marcel tumbuh dalam kesepian dan penderitaan.
+Dalam kondisi hampir mati akibat siksaan, kekuatan sihir gelap Marcel akhirnya bangkit. Ia terhubung dengan kameranya, melahirkan entitas bernama Clemar—bagian lain dari jiwanya yang menyimpan seluruh rasa sakitnya. Dengan kekuatan ini, Marcel menjadi sosok yang ditakuti dan membantu Aamon untuk memperkuat posisi keluarga Paxley. Namun, seiring waktu, Clemar mulai tidak terkendali, berusaha mengambil alih tubuh Marcel, membuatnya sering kehilangan ingatan dan kesadaran.
+Kebenaran tentang ibunya yang telah meninggal dan memiliki kehidupan baru menghancurkan ketenangan Marcel. Ia menyadari bahwa selama ini ia hanya menekan rasa sakitnya ke dalam Clemar. Dengan menghadapi dirinya sendiri di dalam kamera, Marcel akhirnya menerima masa lalu dan penderitaannya. Kini, bersama Clemar sebagai partner sekaligus bagian dari dirinya, ia melanjutkan hidup sebagai seniman yang melihat keindahan dalam ketidaksempurnaan, siap melangkah menuju masa depan dengan cara.
+        </item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
     <array name="data_photo">
-        <item>@drawable/hero_claude</item><item>@drawable/hero_granger</item><item>@drawable/hero_ixia</item><item>@drawable/hero_karrie</item><item>@drawable/hero_obsidia</item>
-        <item>@drawable/hero_clint</item><item>@drawable/hero_brody</item><item>@drawable/hero_hanabi</item><item>@drawable/hero_beatrix</item><item>@drawable/hero_bruno</item>
-        <item>@drawable/hero_arlott</item><item>@drawable/hero_gloo</item><item>@drawable/hero_guinevere</item><item>@drawable/hero_yuzhong</item><item>@drawable/hero_lapulapu</item>
-        <item>@drawable/hero_minotaur</item><item>@drawable/hero_tigreal</item><item>@drawable/hero_grock</item><item>@drawable/hero_hylos</item><item>@drawable/hero_gatotkaca</item>
-        <item>@drawable/hero_valentina</item><item>@drawable/hero_zetian</item><item>@drawable/hero_pharsa</item><item>@drawable/hero_zhuxin</item><item>@drawable/hero_kadita</item>
-        <item>@drawable/hero_fanny</item><item>@drawable/hero_lancelot</item><item>@drawable/hero_suyou</item><item>@drawable/hero_hayabusa</item><item>@drawable/hero_aamon</item>
-        <item>@drawable/hero_marcel</item><item>@drawable/hero_floryn</item><item>@drawable/hero_mathilda</item><item>@drawable/hero_diggie</item><item>@drawable/hero_angela</item>
+        <item>@drawable/hero_claude</item>
+        <item>@drawable/hero_granger</item>
+        <item>@drawable/hero_ixia</item>
+        <item>@drawable/hero_karrie</item>
+        <item>@drawable/hero_obsidia</item>
+        <item>@drawable/hero_clint</item>
+        <item>@drawable/hero_brody</item>
+        <item>@drawable/hero_hanabi</item>
+        <item>@drawable/hero_beatrix</item>
+        <item>@drawable/hero_bruno</item>
+        <item>@drawable/hero_arlott</item>
+        <item>@drawable/hero_gloo</item>
+        <item>@drawable/hero_guinevere</item>
+        <item>@drawable/hero_yuzhong</item>
+        <item>@drawable/hero_lapulapu</item>
+        <item>@drawable/hero_minotaur</item>
+        <item>@drawable/hero_tigreal</item>
+        <item>@drawable/hero_grock</item>
+        <item>@drawable/hero_hylos</item>
+        <item>@drawable/hero_gatotkaca</item>
+        <item>@drawable/hero_valentina</item>
+        <item>@drawable/hero_zetian</item>
+        <item>@drawable/hero_pharsa</item>
+        <item>@drawable/hero_zhuxin</item>
+        <item>@drawable/hero_kadita</item>
+        <item>@drawable/hero_fanny</item>
+        <item>@drawable/hero_lancelot</item>
+        <item>@drawable/hero_suyou</item>
+        <item>@drawable/hero_hayabusa</item>
+        <item>@drawable/hero_aamon</item>
+        <item>@drawable/hero_marcel</item>
+        <item>@drawable/hero_floryn</item>
+        <item>@drawable/hero_mathilda</item>
+        <item>@drawable/hero_diggie</item>
+        <item>@drawable/hero_angela</item>
     </array>
 </resources>
