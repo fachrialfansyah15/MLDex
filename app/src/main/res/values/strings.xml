@@ -16,6 +16,7 @@
         <item>Hanabi</item>
         <item>Beatrix</item>
         <item>Bruno</item>
+        <item>Arlott</item>
     </string-array>
 
     <string-array name="data_role">
@@ -29,19 +30,21 @@
         <item>Marksman</item>
         <item>Marksman</item>
         <item>Marksman</item>
+        <item>Fighter</item>
     </string-array>
 
     <string-array name="data_age">
         <item>25 Tahun</item>
-        <item>30 Tahun</item>
-        <item>18 Tahun</item>
-        <item>20 Tahun</item>
-        <item>19 Tahun</item>
-        <item>35 Tahun</item>
-        <item>25 Tahun</item>
-        <item>22 Tahun</item>
-        <item>19 Tahun</item>
-        <item>25 Tahun</item>
+        <item>24 Tahun</item>
+        <item>16 Tahun</item>
+        <item>27 Tahun</item>
+        <item>Unknown (lebih dari 1.000 tahun)</item>
+        <item>31 Tahun</item>
+        <item>28 Tahun</item>
+        <item>23 Tahun</item>
+        <item>17 sampai 18 Tahun</item>
+        <item>20 sampai 25 Tahun</item>
+        <item>25 tahun secara fisik (100 sampai 200 tahun)</item>
     </string-array>
 
     <string-array name="data_gender">
@@ -55,32 +58,43 @@
         <item>Female</item>
         <item>Female</item>
         <item>Male</item>
+        <item>Male</item>
     </string-array>
 
     <string-array name="data_weapon">
-        <item>Blunderbuss</item>
-        <item>Rhapsody(Pistol), Death Sonata</item>
+        <item>Arm Blaster dan Holographic Mirror Device</item>
+        <item>Dirge dan Requiem</item>
         <item>Arc Beam</item>
-        <item>Lightwheel</item>
-        <item>Shadow Wing</item>
-        <item>Wild West Justice</item>
+        <item>Speedy Lightwheel</item>
+        <item>Bones of Wrath</item>
+        <item>Direwolf (Shotgun) dan Falcon (Revolver)</item>
         <item>Abyssal Arm</item>
         <item>Higanbana</item>
         <item>Renner, Bennett, Wesker, Nibiru</item>
-        <item>Mecha Legs</item>
+        <item>Mecha Legs dan Energy Ball</item>
+        <item>Dual Wielding Lances</item>
     </string-array>
 
     <string-array name="data_lore">
-        <item>Miya was born in the Temple of the Moon and studied hard to one day become a worthy sacrifice to the moon god.</item>
-        <item>Alucard was born in the capital of the empire. His parents were both soldiers in the imperial army.</item>
-        <item>Tigreal is the commander of the Moniyan Empire\'s Knights of the Order.</item>
-        <item>Eudora is a powerful mage who commands the power of lightning.</item>
-        <item>Saber is a modified human who seeks to be the strongest swordsman.</item>
-        <item>Nana is a Leonin from the Moon Elf Forest with powerful magic.</item>
-        <item>Balmond is the leader of the Orc army.</item>
-        <item>Layla is a marksman from Eruditio with her Malefic Gun.</item>
-        <item>Zilong is the Great Dragon\'s favorite disciple.</item>
-        <item>Bruno is a protector of Eruditio with high-tech legs.</item>
+        <item>Claude lahir di Los Pecados, sebuah kota tanpa hukum di Land of Dawn yang dipenuhi kejahatan. Sebagai yatim piatu, ia tumbuh dengan mengandalkan kemampuan bertarung, berbohong, berjudi, dan terutama mencuri. Bakatnya yang luar biasa membuatnya cepat dikenal hingga menjadi pemimpin sekelompok anak jalanan. Mereka kemudian berada di bawah perlindungan Waldo Kane, sosok ambisius yang diam-diam memanfaatkan mereka sebagai alat untuk mencapai kekuasaan.
+Saat berusia 18 tahun, Claude diberi misi untuk menyusup ke rumah seorang bangsawan di Moniyan. Namun, misi itu ternyata hanyalah jebakan, dan ia pun ditangkap lalu dipenjara. Di dalam sel, Claude bertemu Merlin, pencuri legendaris yang mengajarinya berbagai teknik mencuri dan bertahan hidup. Sebagai imbalannya, Claude harus meninggalkan jejak namanya di setiap kota di Land of Dawn. Setelah dua tahun, ia berhasil melarikan diri dan mulai dikenal sebagai pencuri hebat yang hanya menargetkan orang-orang jahat.
+Dalam perjalanannya, Claude bertemu Dexter, seekor monyet cerdik yang kemudian menjadi partner setianya. Setelah lima tahun berkelana, ia kembali ke Los Pecados dan mendapati kenyataan pahit: teman-temannya masih hidup dalam kemiskinan, sementara Waldo Kane telah menjadi penguasa kota. Dipenuhi amarah, Claude merencanakan balas dendam. Ia mencuri alat canggih milik Dr. Rooney di Eruditio, lalu kembali ke Los Pecados bersama Dexter, siap membalas pengkhianatan yang telah menghancurkan hidupnya.
+        </item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Arlott adalah setengah iblis dan setengah manusia yang dikucilkan sejak kecil. Ia bergabung dengan para iblis di Barren Lands, menjalani hidup sebagai prajurit tanpa tujuan selain bertahan hidup. Namun, saat pertempuran, ia justru dikhianati oleh sesama iblis hingga hampir mati. Dalam kondisi kritis, ia diselamatkan oleh seorang gadis manusia bernama Mila. Awalnya ia tidak percaya pada manusia, tapi kebaikan dan ketulusan Mila perlahan mengubah pandangannya.
+
+Selama tinggal bersama Mila di toko roti, Arlott mulai merasakan kehidupan yang belum pernah ia miliki. Ia belajar membaca, membantu pekerjaan sehari-hari, dan bahkan mulai menikmati hidup sederhana. Mila percaya bahwa Arlott adalah orang baik, dan mereka berjanji untuk melindungi orang lain bersama. Tapi kebahagiaan itu tidak lama. Gereja Cahaya mengetahui bahwa Mila menolong Arlott, lalu menuduhnya sesat dan mengeksekusinya.
+
+Kematian Mila menghancurkan Arlott. Dipenuhi amarah, ia membantai semua orang di gereja sebagai balas dendam. Setelah itu, ia membawa jasad Mila ke hutan dekat danau, tempat yang pernah mereka kenang bersama, lalu memakamkannya di sana. Di titik itu, Arlott sadar ia tidak sepenuhnya manusia maupun iblis. Ia kehilangan satu-satunya hal yang ingin ia lindungi, dan memilih berjalan di jalannya sendiri, ditemani kenangan tentang Mila.
+</item>
     </string-array>
 
     <array name="data_photo">
@@ -94,5 +108,6 @@
         <item>@drawable/hero_hanabi</item>
         <item>@drawable/hero_beatrix</item>
         <item>@drawable/hero_bruno</item>
+        <item>@drawable/hero_arlott</item>
     </array>
 </resources>

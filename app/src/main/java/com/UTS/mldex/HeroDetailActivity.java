@@ -34,11 +34,7 @@ public class HeroDetailActivity extends AppCompatActivity {
             tvWeapon.setText("Weapon: " + hero.getWeapon());
             tvLore.setText(hero.getLore());
         }
-        
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("Detail " + (hero != null ? hero.getName() : "Hero"));
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
+
     }
 
     @Override
